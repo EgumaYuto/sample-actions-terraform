@@ -1,3 +1,3 @@
 locals {
-  role = "cooperation-pattern1"
+  role = "github-actions-executor-1"
 }
