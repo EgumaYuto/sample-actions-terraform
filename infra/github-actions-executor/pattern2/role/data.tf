@@ -3,7 +3,7 @@ data "terraform_remote_state" "execution" {
 
   config = {
     bucket = var.state_bucket
-    key    = "env:/${terraform.workspace}/state/cooperation/execution.tfstate"
+    key    = "env:/${terraform.workspace}/state/github-actions-executor/pattern2/user.tfstate"
     region = var.default_region
   }
 }
