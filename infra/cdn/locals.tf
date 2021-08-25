@@ -1,5 +1,5 @@
 locals {
-  role = "sample-static-page-cdn"
+  role = "sample-actions-terraform-cdn"
   name = module.naming.name
   bucket = {
     regional_domain_name = data.terraform_remote_state.storage.outputs.bucket.regional_domain_name
