@@ -1,3 +1,3 @@
 locals {
-  role = "github-actions-executor-1"
+  role = "sample-actions-user-1"
 }
