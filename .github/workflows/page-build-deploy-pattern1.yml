@@ -1,4 +1,4 @@
-name: Page Duild & Deploy
+name: Page Duild & Deploy Pattern1
 on:
   push:
     paths:
