@@ -2,7 +2,7 @@ name: Page Duild & Deploy Pattern2
 on:
   push:
     paths:
-      - '.github/workflows/page-build-deploy.yml'
+      - '.github/workflows/page-build-deploy-pattern2.yml'
       - 'page/**'
 jobs:
   build:
