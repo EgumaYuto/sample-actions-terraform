@@ -30,4 +30,5 @@ jobs:
           yarn
           yarn run build
           yarn run export
-          aws s3 sync ./out s3://dev-sample-static-page-storage
+          aws s3 ls
+#          aws s3 sync ./out s3://dev-sample-static-page-storage
