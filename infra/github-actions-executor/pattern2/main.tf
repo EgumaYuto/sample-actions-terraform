@@ -41,7 +41,7 @@ resource "aws_iam_user_policy_attachment" "policy_attachment" {
 // role
 data "aws_iam_policy_document" "execution_role_assume_policy_document" {
   statement {
-    actions = ["sts:AssumeRole"]
+    actions = ["sts:AssumeRole", "sts:TagSession"]
     principals {
       type        = "AWS"
       identifiers = [local.account_id]
