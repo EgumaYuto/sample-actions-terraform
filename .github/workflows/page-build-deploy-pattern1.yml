@@ -22,7 +22,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ap-northeast-1
       - name: Build
-        working-directory: ./page
+        working-directory: ./app
         run: |
           yarn
           yarn run build
